@@ -279,3 +279,23 @@ footer img {
 		transform: scale(1);
 	}
 }
+
+
+/* Nicht genügend Zeit mehr dafür gehabt, dafür gibt es ein pulsierendes Herz für euch ;) */
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: red;
+        }        
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: green;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: yellow;
+        }
+}
