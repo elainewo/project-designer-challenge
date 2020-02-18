@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    padding-top: 2%;
+    padding-left: 2%;
+    background: transparent;
+    z-index: 999;
+}
+
+header img{
+    width: 2%;
+    padding-right: 1%;
+}
+
+header span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+header p{
+    font-size: .8rem;
+}
+
+.better-designer{
+    height: 100vh;
+    background: url(../img/ilustracion_people.png) top right/contain no-repeat, url(../img/ilustracion1.png) top right/cover no-repeat;
+    background-size: 50%;
+
+}
+
+.better-article{
+    width: 40%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.better-article h1{
+    font-size: 3.5rem;
+    margin-bottom: 3%;
+}
+
+.better-article p{
+    font-weight: lighter;
+    margin-bottom: 25%;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+.rocket-img{
+    width: 5%;
+}
+
+.better-article a{
+    text-decoration: none;
+    color: #ff3571;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.gallery{
+    background: url(../img/images.jpg)top center/contain no-repeat;
+    height: 100vh;
+}
+
+.content{
+    padding-top: 10%;
+}
+
+.start-idea{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.start-idea p{
+    width: 43%;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+
+.idea-img{
+    width: 16%;
+}
+
+.start-idea h2{
+    font-size: 2.5rem;
+}
+
+.several-weeks{
+    width: 40%;
+    font-size: 2.5rem;
+   padding-left: 12%;
+   margin-top: 10%;
+}
+
+.content-wrapper img{
+    width: 8%;
+    padding-right: 5%;
+}
+
+.content-wrapper h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.content-wrapper p{
+    font-size: .9rem;
+    font-weight: lighter;
+    line-height: 1.8rem;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 13%;
+}
+
+.first-row article{
+    width: 29%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15%;
+}
+
+.second-row article{
+    width: 29%; 
+    display: flex;
+    align-items: flex-start;
+}
+
+.challenge-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.challenge-intro h2{
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+
+.challenge-intro p{
+    width: 45%;
+    text-align: center;
+    line-height: 1.8rem;
+    font-weight: lighter;
+    padding-bottom: 10%;
+}
+
+.challenge img{
+    width:35%;
+    margin-bottom: 3%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8%;
+}
+
+.row div{
+    width: 41%;
+}
+
+.row div img{
+    width:8%;
+}
+
+.row h2{
+    font-size: 3.5rem;
+    color: #dddddd;
+    margin-bottom: 5%;
+}
+
+.row h3{
+    margin-bottom: 3%;
+}
+
+.row p{
+    line-height: 1.8;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.like-challenge{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.like-challenge h2{
+    font-size: 2.8rem;
+    margin-bottom: 6%;
+}
+
+.like-challenge p{
+    font-weight: lighter;
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+}
+
+input[type=email] {
+    border: .01px solid rgb(235, 232, 232);
+    box-shadow: 1px 5px 32px 0px rgb(235, 232, 232);
+    border-radius: 5px;
+    padding: 2.8% 30%;
+    font-size: 1rem;
+    margin-bottom: 3%;
+}
+
+input[type=button] {
+    background-color: #ff3571;
+    border-radius: 4px;
+    padding: 1.6% 8.5%;
+    color: #fff;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+footer{
+    padding-left: 7%;
+    padding-bottom: 3%;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+
+footer img{
+    width: 1.8%;
+    padding-left: .7%;
+}
