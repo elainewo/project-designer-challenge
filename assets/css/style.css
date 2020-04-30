@@ -1,287 +1,292 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 header {
-    display: flex;
-    padding-top: 2%;
-    padding-left: 2%;
-    background: transparent;
-    z-index: 999;
+  display: flex;
+  padding-top: 2%;
+  padding-left: 2%;
+  background: transparent;
+  z-index: 999;
 }
 
 header img {
-    width: 2.7%;
-    position: fixed;
+  width: 2.7%;
+  position: fixed;
 }
 
 header span {
-    font-size: 1.2rem;
-    font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 header p {
-    font-size: .8rem;
-    padding-left: 4%;
+  font-size: 0.8rem;
+  padding-left: 4%;
 }
 
 .better-designer {
-    height: 100vh;
-    background: url(../img/ilustracion_people.png) top right/contain no-repeat, url(../img/ilustracion1.png) top right/cover no-repeat;
-    background-size: contain;
+  height: 100vh;
+  background: url(../img/ilustracion_people.png) top right/contain no-repeat,
+    url(../img/ilustracion1.png) top right/cover no-repeat;
+  background-size: contain;
 }
 
 .better-article {
-    width: 30%;
-    margin-left: 5%;
-    margin-top: 10%;
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 10%;
 }
 
 .better-article h1 {
-    font-size: 3.5rem;
-    margin-bottom: 3%;
+  font-size: 3.5rem;
+  margin-bottom: 3%;
 }
 
 .better-article p {
-    font-weight: lighter;
-    line-height: 1.5rem;
-    margin-bottom: 25%;
-    letter-spacing: 1px;
+  font-weight: lighter;
+  line-height: 1.5rem;
+  margin-bottom: 25%;
+  letter-spacing: 1px;
 }
 
 .rocket-img {
-    width: 5%;
+  width: 5%;
 }
 
 .better-article a {
-    text-decoration: none;
-    color: #ff3571;
-    font-weight: 500;
-    font-size: .9rem;
+  text-decoration: none;
+  color: #ff3571;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .gallery {
-    background: url(../img/images.jpg)top center/contain no-repeat;
-    height: 100vh;
-    margin-top: 5%;
+  background: url(../img/images.jpg) top center/contain no-repeat;
+  height: 100vh;
+  margin-top: 5%;
 }
 
 .content {
-    padding-top: 10%;
+  padding-top: 10%;
 }
 
 .start-idea {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .start-idea p {
-    width: 43%;
-    line-height: 2rem;
-    font-weight: lighter;
+  width: 43%;
+  line-height: 2rem;
+  font-weight: lighter;
 }
 
 .idea-img {
-    width: 16%;
+  width: 16%;
 }
 
 .start-idea h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .several-weeks {
-    width: 40%;
-    font-size: 2.5rem;
-    padding-left: 12%;
-    margin-top: 10%;
+  width: 40%;
+  font-size: 2.5rem;
+  padding-left: 12%;
+  margin-top: 10%;
 }
 
 .init_icon {
-    height: 3em;
+  height: 3em;
 }
 
 .four_icons article {
-    display: flex;
+  display: flex;
 }
 
 .four_icons h4 {
-    font-size: 2em;
-    padding-left: 1em;
-    align-self: flex-end;
-    font-weight: bold;
+  font-size: 2em;
+  padding-left: 1em;
+  align-self: flex-end;
+  font-weight: bold;
 }
 
 .paragraph_icons {
-    width: 22.5em;
-    font-size: 1.8em;
-    font-weight: lighter;
-    padding-left: 2.8em;
-    margin-bottom: 5em;
-    line-height: 5vh;
+  width: 30rem;
+  font-size: 1.8em;
+  font-weight: lighter;
+  padding-left: 2.8em;
+  margin-bottom: 5em;
+  line-height: 5vh;
 }
 
 .four_icons {
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 15vh;
-    margin-left: -8vw;
-    margin-bottom: 8%;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15vh;
+  margin-left: -8vw;
+  margin-bottom: 8%;
 }
 
 .wrap {
-    margin-left: 10vw;
+  margin-left: 10vw;
 }
 
 .challenge-intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .challenge-intro h2 {
-    font-size: 2.5rem;
-    margin-bottom: 3%;
+  font-size: 2.5rem;
+  margin-bottom: 3%;
 }
 
 .challenge-intro p {
-    width: 45%;
-    text-align: center;
-    line-height: 1.8rem;
-    font-weight: lighter;
-    padding-bottom: 10%;
+  width: 45%;
+  text-align: center;
+  line-height: 1.8rem;
+  font-weight: lighter;
+  padding-bottom: 10%;
 }
 
 .challenge img {
-    width: 35%;
-    margin-bottom: 3%;
+  width: 35%;
+  margin-bottom: 3%;
 }
 
 .row {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 8%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 8%;
 }
 
 .row div {
-    width: 41%;
+  width: 41%;
 }
 
 .row div img {
-    width: 8%;
+  width: 8%;
 }
 
 .row h2 {
-    font-size: 3.5rem;
-    color: #dddddd;
-    margin-bottom: 5%;
+  font-size: 3.5rem;
+  color: #dddddd;
+  margin-bottom: 5%;
 }
 
 .row h3 {
-    margin-bottom: 3%;
+  margin-bottom: 3%;
 }
 
 .row p {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
 .reverse {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .like-challenge {
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .like-challenge h2 {
-    font-size: 2.8rem;
-    margin-bottom: 6%;
+  font-size: 2.8rem;
+  margin-bottom: 6%;
 }
 
 .like-challenge p {
-    font-weight: lighter;
-    font-size: 1.1rem;
-    margin-bottom: 5%;
+  font-weight: lighter;
+  font-size: 1.1rem;
+  margin-bottom: 5%;
 }
 
-input[type=email] {
-    border: .01px solid rgb(235, 232, 232);
-    box-shadow: 1px 5px 32px 0px rgb(235, 232, 232);
-    border-radius: 5px;
-    padding: 2.8% 30%;
-    font-size: 1rem;
-    margin-bottom: 3%;
+input[type="email"] {
+  border: 0.01px solid rgb(235, 232, 232);
+  box-shadow: 1px 5px 32px 0px rgb(235, 232, 232);
+  border-radius: 5px;
+  padding: 2.8% 30%;
+  font-size: 1rem;
+  margin-bottom: 3%;
 }
 
-input[type=button] {
-    background-color: #ff3571;
-    border-radius: 4px;
-    padding: 1.8% 8.6%;
-    color: #fff;
-    font-weight: 500;
-    font-size: .8rem;
+input[type="button"] {
+  background-color: #ff3571;
+  border-radius: 4px;
+  padding: 1.8% 8.6%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 
-input[type=button]:hover {
-    background: linear-gradient(90deg, rgba(255, 53, 113, 1) 22%, rgba(60, 48, 255, 1) 100%);
+input[type="button"]:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 53, 113, 1) 22%,
+    rgba(60, 48, 255, 1) 100%
+  );
 }
 
 footer {
-    padding-left: 7%;
-    padding-bottom: 3%;
-    font-size: .8rem;
-    font-weight: lighter;
+  padding-left: 7%;
+  padding-bottom: 3%;
+  font-size: 0.8rem;
+  font-weight: lighter;
 }
 
 footer img {
-    position: relative;
-    width: 2%;
-    animation: pulse 1.5s infinite;
+  position: relative;
+  width: 2%;
+  animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(.8);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Nicht genügend Zeit mehr dafür gehabt, dafür gibt es ein pulsierendes Herz für euch ;) */
 
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: red;
-    }
+  body {
+    background-color: red;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: green;
-    }
+  body {
+    background-color: green;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: yellow;
-    }
+  body {
+    background-color: yellow;
+  }
 }
